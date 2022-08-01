@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
     s.public_header_files = 'AMKLaunchTimeProfiler/Classes/Core/*.h'
     s.frameworks = 'UIKit'
     s.dependency 'YYKit'
-    s.dependency 'Aspects'
+    s.dependency 'CampCore'
     s.dependency 'SSZipArchive'
 end
